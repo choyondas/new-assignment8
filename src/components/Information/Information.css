@@ -1,0 +1,28 @@
+.student-info{
+    text-align: center;
+    display: flex;
+    
+    border: 1px solid green;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    
+}
+.student-info:hover{
+    box-shadow: 3px 3px 30px gray;
+    border: 1px solid white;
+}
+.student-img{
+    width: 100px;
+    border-radius: 50%;
+    
+    
+}
+.addToCart-btn{
+    width: 160px;
+    height: 30px;
+
+}
