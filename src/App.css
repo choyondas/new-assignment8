@@ -1,6 +1,10 @@
+/* style added */
+body{
+  background-color: rgb(231, 231, 231);
+}
 .App {
   text-align: center;
-  background-color: whitesmoke;
+  
 }
 
 .App-logo {

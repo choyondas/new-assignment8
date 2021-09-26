@@ -1,17 +1,22 @@
+// imported files
 import React, { useEffect, useState } from 'react';
 import History from '../History/History';
 import Information from '../Information/Information';
 import './Students.css'
 const Students = () => {
+
+    //using use state hook
     const [students, setStudents]=useState([]);
     const [history, setHistory] = useState([]);
 
-
+    //using useEffect hook to fetch data from database
     useEffect(()=>{
         fetch('./data.json')
         .then(res => res.json())
         .then(data => setStudents(data))
     },[])
+
+    //set eventHandler
     const handleAddToCart =(student) =>{
         
         const newHistory =[...history, student];

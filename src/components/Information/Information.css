@@ -14,6 +14,7 @@
 .student-info:hover{
     box-shadow: 3px 3px 30px rgb(111, 101, 250);
     border: 1px solid white;
+    background-color: white;
     
 }
 .student-img{
