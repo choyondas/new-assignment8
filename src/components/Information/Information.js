@@ -3,7 +3,7 @@ import "./Information.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 const Information = (props) => {
-    console.log(props)
+   
     const {name,img, age, country, id, language, salary }= props.student
     return (
         <div className ="student-info">

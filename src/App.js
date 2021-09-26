@@ -5,11 +5,7 @@ import Header from './components/Header/Header';
 import Students from './components/Students/Students';
 
 function App() {
-// useEffect(()=>{
-//   fetch('./data.json')
-//   .then(res => res.json())
-//   .then(data => console.log(data))
-// },[])
+
 
   return (
     <div >

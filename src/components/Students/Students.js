@@ -4,14 +4,20 @@ import Information from '../Information/Information';
 import './Students.css'
 const Students = () => {
     const [students, setStudents]=useState([]);
+    const [history, setHistory] = useState([]);
+
+
     useEffect(()=>{
         fetch('./data.json')
         .then(res => res.json())
         .then(data => setStudents(data))
     },[])
     const handleAddToCart =(student) =>{
-        console.log(student);
+        
+        const newHistory =[...history, student];
+        setHistory(newHistory);
     }
+    
     return (
         <div className = "students">
             <div className="info">
@@ -27,7 +33,8 @@ const Students = () => {
 
             </div>
             <div className="history">
-                <History></History>
+                
+                <History history ={history}></History>
 
             </div>
         </div>
