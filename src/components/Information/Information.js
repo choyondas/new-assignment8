@@ -8,9 +8,9 @@ const Information = (props) => {
     return (
         <div className ="student-info">
             <div>
-                <h2>hi</h2>
+                
                 <img className = "student-img" src={img} alt="" />
-                <h1>Name: {name }</h1>
+                <h1 className = "h1">Name: {name }</h1>
                 <h3>ID: {id}</h3>
                 <h3>age: {age}</h3>
                 <h3>Country: {country}</h3>

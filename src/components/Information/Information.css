@@ -14,15 +14,28 @@
 .student-info:hover{
     box-shadow: 3px 3px 30px rgb(111, 101, 250);
     border: 1px solid white;
+    
 }
 .student-img{
-    width: 100px;
+    width: 150px;
     border-radius: 50%;
+    height: 150px;
     
     
 }
 .addToCart-btn{
     width: 160px;
     height: 30px;
+    background-color: rgb(111, 101, 250);
+    border: 1px solid rgb(41, 27, 236);
+    border-radius: 6px;
+    color: white;
 
+}
+.addToCart-btn:hover{
+    background-color: blue;
+    box-shadow: 3px 3px 10px rgb(72, 72, 235);
+}
+.h1:hover{
+color:rgb(29, 29, 168);
 }
