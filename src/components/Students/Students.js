@@ -32,7 +32,7 @@ const Students = () => {
 
 
             </div>
-            <div className="history">
+            <div className="student-history">
                 
                 <History history ={history}></History>
 
