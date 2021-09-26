@@ -1,4 +1,4 @@
-# Yunnan University Library Student Information
+# Yunnan University Student Information
 
 [live site link](https://kind-dijkstra-74fb94.netlify.app/)
 - You can see the student information here.
